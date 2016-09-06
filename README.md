@@ -2,6 +2,7 @@
 Working our way through Javascript Design Patterns by Addy Osmani
 
 **We will work our way through the following patterns first:**
+
 1. Constructor
 1. Singleton
 1. Factory
@@ -12,6 +13,7 @@ Working our way through Javascript Design Patterns by Addy Osmani
 1. Revealing Module
 
 **... and the others in our own time, in no particular order:**
+
 1. Observer
 1. Mediator
 1. Command
