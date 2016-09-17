@@ -53,9 +53,10 @@ console.log(defaultsCoffee instanceof Coffee);
 var TeaFactory = function() {};
 
 TeaFactory.prototype = new DrinkFactory();
-TeaFactory.prototype.drinkType = Tea;
+// TeaFactory.prototype.drinkType = Tea;
 
 var teaFactory = new TeaFactory();
+teaFactory.drinkType = Tea;
 var defaultsTea = teaFactory.createDrink({});
 
 console.log(defaultsTea);
