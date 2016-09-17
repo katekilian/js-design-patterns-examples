@@ -31,6 +31,8 @@ DrinkFactory.prototype.createDrink = function(options) {
   return new this.drinkType(options);
 };
 
+// -------------------
+
 var coffeeFactory = new DrinkFactory();
 
 var nonDefaultsCoffee = coffeeFactory.createDrink({
@@ -47,4 +49,15 @@ var defaultsCoffee = coffeeFactory.createDrink({});
 
 console.log(defaultsCoffee);
 console.log(defaultsCoffee instanceof Coffee);
+
+var TeaFactory = function() {};
+
+TeaFactory.prototype = new DrinkFactory();
+TeaFactory.prototype.drinkType = Tea;
+
+var teaFactory = new TeaFactory();
+var defaultsTea = teaFactory.createDrink({});
+
+console.log(defaultsTea);
+console.log(defaultsTea instanceof Tea);
 
