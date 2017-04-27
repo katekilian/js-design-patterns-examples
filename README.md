@@ -3,11 +3,11 @@ Working our way through Javascript Design Patterns by Addy Osmani
 
 **We will work our way through the following patterns first:**
 
-1. Constructor
-1. Singleton
-1. Factory
-1. Facade
-1. Decorator
+1. ~~Constructor~~
+1. ~~Singleton~~
+1. ~~Factory~~
+1. ~~Facade~~
+1. ~~Decorator~~
 1. Prototype
 1. Module
 1. Revealing Module
